@@ -23,5 +23,5 @@
 4. 点击"生成回复"获取 AI 生成的回复
 
 ## API 配置
-
+将`Autogmail.yml`文件导入到Dify里.  
 扩展程序使用 Dify.ai API。您可以在 `difyService.js` 中配置您的 API 密钥：
