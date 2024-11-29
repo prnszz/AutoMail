@@ -1,6 +1,6 @@
 class DifyService {
     constructor() {
-        this.API_KEY = 'app-G0sVD9cfZIcCyBh68Rz1he7D';
+        this.API_KEY = 'your-api-key';
         this.API_URL = 'https://api.dify.ai/v1/completion-messages';
     }
 
