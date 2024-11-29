@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Gmail Content Extractor",
+  "version": "0.11",
+  "description": "Extract email content from Gmail and generate responses",
+  "permissions": [
+    "scripting",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "https://mail.google.com/*",
+    "https://api.dify.ai/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+} 

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Gmail Content Extractor</title>
+  <style>
+    body {
+      width: 400px;
+      padding: 10px;
+    }
+    textarea {
+      width: 100%;
+      min-height: 100px;
+      margin: 10px 0;
+    }
+    button {
+      margin: 5px 0;
+      margin-right: 10px;
+    }
+    #loading {
+      display: none;
+      color: #666;
+      margin: 10px 0;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <button id="extractButton">提取邮件内容</button>
+    <button id="generateButton">生成回复</button>
+  </div>
+  <div id="loading">正在生成回复...</div>
+  <textarea id="emailContent" readonly></textarea>
+  <script src="difyService.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html> 
