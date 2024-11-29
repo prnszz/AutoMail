@@ -25,5 +25,5 @@ A Chrome extension that helps extract Gmail content and generate AI responses us
 4. Click "Generate Response" to get AI-generated reply
 
 ## API Configuration
-
+Import the Autogmail.yml
 The extension uses Dify.ai API. You can configure your API key in `difyService.js`:
